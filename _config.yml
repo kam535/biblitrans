@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: http://127.0.0.1:4000/biblitrans/
+url: https://brumedezembro.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /biblitrans
 # location of code, the full url to your github repository
-source-code: http://127.0.0.1:4000/biblitrans/
+source-code: https://github.com/brumedezembro/biblitrans
 
 ##########
 # SITE SETTINGS

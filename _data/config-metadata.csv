@@ -5,6 +5,7 @@ date,Ano de Publicação,,,DCTERMS.date,dateCreated
 description,,,,DCTERMS.description,description
 subject,Área,true,,DCTERMS.subject,keywords
 location,Universidade,,,,contentLocation
+classification,Tipo,,,,
 latitude,,,,,
 longitude,,,,,
 source,,,,,
@@ -13,3 +14,4 @@ type,,,,DCTERMS.type,
 format,,,,,encodingFormat
 language,,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license
+abstract,Resumo,,,,

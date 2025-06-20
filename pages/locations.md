@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Pesquisar por localização
 
-Com muito alegria.
+Página inativa.

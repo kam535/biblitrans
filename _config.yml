@@ -20,14 +20,14 @@ source-code: https://github.com/brumedezembro/biblitrans
 # title of site appears in banner
 title: Biblioteca Trans-Travesti Brasileira
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Um primeiro protótipo de uma biblioteca
+tagline: #tagline
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A Biblioteca Trans-Travesti Brasileira é um projeto de preservação e divulgação de produções trans e travestis no Brasil"
+description: "Projeto de preservação e divulgação de produções acadêmicas brasileiras realizadas por pessoas trans e travestis"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: testing
+keywords: Teste
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Everyone
+author: Colaborativo
 
 ##########
 # COLLECTION SETTINGS

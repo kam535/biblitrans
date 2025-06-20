@@ -3,7 +3,7 @@ title,Título,,,DCTERMS.title,headline
 creator,Autoria,,,DCTERMS.creator,creator
 date,Ano de Publicação,,,DCTERMS.date,dateCreated
 description,,,,DCTERMS.description,description
-subject,Palavras-chave,true,,DCTERMS.subject,keywords
+subject,Área,true,,DCTERMS.subject,keywords
 location,Universidade,,,,contentLocation
 latitude,,,,,
 longitude,,,,,

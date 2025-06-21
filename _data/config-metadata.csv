@@ -6,6 +6,8 @@ description,,,,DCTERMS.description,description
 subject,Área,true,,DCTERMS.subject,keywords
 location,Universidade,,,,contentLocation
 classification,Tipo,,,,
+publisher,Editora,,,,
+journal,Revista,,,,
 latitude,,,,,
 longitude,,,,,
 source,,,,,

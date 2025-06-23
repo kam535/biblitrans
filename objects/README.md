@@ -10,4 +10,4 @@ Each object's location can be different, hosted in a variety of options.
 For example, objects can be in a folder contained inside the project, like the demo objects (e.g. the value of "object_download" would be `/objects/demo_001.jpg`).
 Or hosted in a separate web accessible location (e.g. the value of "object_download" would be `https://www.lib.uidaho.edu/digital/example/demo_001.jpg`).
 
-Check the documentation for details of Rake tasks to process object files and how find API links.
+Check the documentation for details of Rake tasks to process object files and how find API links. hello hello hello.

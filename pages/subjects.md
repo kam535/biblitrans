@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.subjects-fields
 
 ## Pesquisar por tópico
 
-Página inativa.
+Página em construção.

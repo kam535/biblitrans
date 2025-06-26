@@ -20,4 +20,8 @@ padding: #6em
 
 ## Sobre a Biblioteca
 
-Projeto de preservação e divulgação de produções acadêmicas brasileiras realizadas por pessoas trans e travestis.
+(PT) A "Biblioteca Trans-Travesti Brasileira" (BTTB) é um projeto de conservação e divulgação de produções bibliográficas realizadas por pessoas trans brasileiras. Com isso, tem como objetivos tanto a conservação desses documentos através de um acervo digital interno, quanto na promoção da circulação desses materiais para o público, incluindo na promoção de um sistema de buscas robusto.
+
+A BTTB é construída através do "CollectionBuilder", framework de acesso livre para criação de sites estáticos, criando uma plataforma sustentável e leve, facilitando o acesso de diferentes públicos.
+
+Este é um primeiro protótipo de um projeto coletivo, e em andamento, por ora dividido em 3 grandes áreas de pesquisa, nas abas de navegação: "Acervo", com as ferramentas mais completas de pesquisa; "Mapa", com as produções divididas por área; "Cronologia", com as produções divididas por ano; além da aba "Dados", onde o catálogo simplificado do acervo pode ser acessado para download. Cada item do acervo conta com um conjunto de informações, a depender do seu tipo (por ora, Livro, Dissertação ou Tese, e Artigo em Periódico), tais como resumo ou sinopse, universidade ou editora, autoria, ano de publicação, localização em bibliotecas (WorldCat), entre outros.

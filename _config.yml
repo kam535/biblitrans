@@ -51,7 +51,7 @@ metadata: metadata
 #   To remove the branding, comment out these values, or delete them. 
 #
 # organization-name: "BiblioTrans"
-# organization-link: https://cdil.lib.uidaho.edu/
+organization-link: https://brumedezembro.github.io/biblitrans/
 organization-logo-banner: /assets/img/logo_large.png
 organization-logo-nav: /assets/img/logo_small.png
 

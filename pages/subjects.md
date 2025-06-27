@@ -6,7 +6,3 @@ permalink: /subjects.html
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: site.data.theme.subjects-fields
 ---
-
-## Pesquisar por tópico
-
-Página em construção.

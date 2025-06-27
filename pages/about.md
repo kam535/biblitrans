@@ -25,3 +25,10 @@ padding: #6em
 A BTTB é construída através do "CollectionBuilder", framework de acesso livre para criação de sites estáticos, criando uma plataforma sustentável e leve, facilitando o acesso de diferentes públicos.
 
 Este é um primeiro protótipo de um projeto coletivo, e em andamento, por ora dividido em 3 grandes áreas de pesquisa, nas abas de navegação: "Acervo", com as ferramentas mais completas de pesquisa; "Mapa", com as produções divididas por área; "Cronologia", com as produções divididas por ano; além da aba "Dados", onde o catálogo simplificado do acervo pode ser acessado para download. Cada item do acervo conta com um conjunto de informações, a depender do seu tipo (por ora, Livro, Dissertação ou Tese, e Artigo em Periódico), tais como resumo ou sinopse, universidade ou editora, autoria, ano de publicação, localização em bibliotecas (WorldCat), entre outros.
+
+Os itens no mapa são localizados a partir de seu tipo: "Teses e dissertações" são localizadas em suas universidades; "livros" a partir da localização de sua editora; e "Artigos em periódicos" a partir da localização da universidade do periódico. As localizações são aproximadas.
+
+DATA
+A BTTB é um acervo baseado em princípios de acesso-livre. Por isso, disponibilizamos uma versão simplificada de nosso catálogo para download, facilitando o trabalho de pesquisa.
+
+Utilize o campo de pesquisa a partir das identificações dos materiais (tais como título, autoria, universidade...), ou utiliza o campo de PESQUISA AVANÇADA, que possibilita a busca a partir de diferentes parâmetros, assim como diferentes termos

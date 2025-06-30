@@ -1,5 +1,6 @@
 field,display_name,search
 date,Ano,true
 creator,Autoria,true
-location,Universidade,true
+university,Universidade,true
 publisher,Editora,true
+journal,Periódico,true

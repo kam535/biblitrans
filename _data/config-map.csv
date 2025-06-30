@@ -1,5 +1,5 @@
 field,display_name,search
 date,Ano,true
 creator,Autoria,true
-subject,Tema,false
 location,Universidade,true
+publisher,Editora,true

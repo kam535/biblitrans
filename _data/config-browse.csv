@@ -1,9 +1,10 @@
 field,display_name,btn,hidden,sort_name,facet_name
-date,Ano de Publicação,,,Ano de Publicação, Ano de Publicação
 creator,Autoria,,,Autoria,Autoria
-subject,Palavra-chave,true,,Palavra-chave,Palavra-chave
 abstract,Resumo,,true,,Resumo,Resumo
-classification,Formato,true,,Formato,Formato
-genre,Gênero Literário,true,,Gênero literário,Gênero literário
-location,Universidade,,true,Universidade,Universidade
+subject,Palavra-chave,true,,Palavra-chave,Palavra-chave
+date,Ano de Publicação,,,Ano de Publicação, Ano de Publicação
+classification,Formato,,true,Formato,Formato
+genre,Gênero Literário,true,,,Gênero literário
+university,Universidade,,true,Universidade,Universidade
 publisher,Editora,,true,Editora,Editora
+journal,Periodico,,true,Periódico,Periódico

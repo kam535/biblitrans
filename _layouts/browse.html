@@ -21,7 +21,6 @@ custom-foot: js/browse-js.html
                     {% assign cap-field = f.field | capitalize %}
                     <option value="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</option>
                     {% endfor %}
-                    <option value="display_template">Conteúdo</option>
                     {% if site.data.theme.advanced-search == true %}
                     <option value="" disabled>─────────────</option>
                     <option value="advanced">Pesquisa avançada...</option>{% endif %}
@@ -41,14 +40,13 @@ custom-foot: js/browse-js.html
                         {% assign cap-field = f.field | capitalize %}
                         <button class="dropdown-item" type="button" data-field="{{ f.field }}">{{ f.facet_name | default: f.display_name | default: cap-field }}</button>
                         {% endfor %}
-                        <button class="dropdown-item" type="button" data-field="display_template">Conteúdo</button>
                         {% if site.data.theme.advanced-search == true %}
                         <div class="dropdown-divider"></div>
                         <button class="dropdown-item" type="button" data-field="advanced">Pesquisa avançada...</button>
                         {% endif %}
                     </div>
                 </div>{% endif %}
-                <input type="text" class="form-control" id="filterTextBox" placeholder="Filtro ... " aria-label="Search"> 
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Pesquisar ... " aria-label="Search"> 
                 <!-- Update the date range inputs section -->
                 <div id="dateRangeInputs" class="date-range-inputs">
                     <div class="date-input-group">
@@ -57,7 +55,7 @@ custom-foot: js/browse-js.html
                         <input type="text" id="endDate" class="me-2 form-control" placeholder="Data Final">
                     </div>
                 </div>
-                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Pesquisa</button>
+                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Pesquisar</button>
                 <button class="btn btn-outline-secondary filter d-none d-lg-flex" onclick="resetFilter(); return false;" data-filter="">Reiniciar</button>
             </div>
         </form>

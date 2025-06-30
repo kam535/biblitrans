@@ -4,4 +4,9 @@ date,true,true
 creator,true,false
 description,false,false
 subject,true,true
-location,true,false
+university,true,true
+abstract,true,true
+classification,true,true
+genre,true,true
+journal,true,true
+publisher,true,true

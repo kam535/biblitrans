@@ -1,5 +1,7 @@
 field,display_name
 date,Ano
+title,Título
+classification,Formato
 creator,Autoria
-classification,Tipo
-title, Título
+genre,Gênero
+subject,Palavra-chave

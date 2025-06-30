@@ -3,12 +3,12 @@ title,Título,,,DCTERMS.title,headline
 creator,Autoria,,,DCTERMS.creator,creator
 date,Ano de Publicação,,,DCTERMS.date,dateCreated
 description,,,,DCTERMS.description,description
-subject,Área,true,,DCTERMS.subject,keywords
-location,Universidade,,,,contentLocation
-classification,Formato,,,,
-genre,Gênero,,,,
-publisher,Editora,,,,
-journal,Revista,,,,
+subject,Palavras-chave,true,,DCTERMS.subject,keywords
+university,Universidade,,,,contentLocation
+classification,Formato,,,DCTERMS.subject,keywords
+genre,Gênero,,,,keywords
+publisher,Editora,,,DCTERMS.subject,keywords
+journal,Revista,,,DCTERMS.subject,keywords
 worldcare,Worldcat (Bibliotecas),,,,
 latitude,,,,,
 longitude,,,,,

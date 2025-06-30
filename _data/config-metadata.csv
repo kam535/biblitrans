@@ -5,9 +5,11 @@ date,Ano de Publicação,,,DCTERMS.date,dateCreated
 description,,,,DCTERMS.description,description
 subject,Área,true,,DCTERMS.subject,keywords
 location,Universidade,,,,contentLocation
-classification,Tipo,,,,
+classification,Formato,,,,
+genre,Gênero,,,,
 publisher,Editora,,,,
 journal,Revista,,,,
+worldcare,Worldcat (Bibliotecas),,,,
 latitude,,,,,
 longitude,,,,,
 source,,,,,

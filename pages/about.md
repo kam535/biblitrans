@@ -20,15 +20,17 @@ padding: #6em
 
 ## Sobre a Biblioteca
 
-(PT) A "Biblioteca Trans-Travesti Brasileira" (BTTB) é um projeto de conservação e divulgação de produções bibliográficas realizadas por pessoas trans brasileiras. Com isso, tem como objetivos tanto a conservação desses documentos através de um acervo digital interno, quanto na promoção da circulação desses materiais para o público, incluindo na promoção de um sistema de buscas robusto.
-
-A BTTB é construída através do "CollectionBuilder", framework de acesso livre para criação de sites estáticos, criando uma plataforma sustentável e leve, facilitando o acesso de diferentes públicos.
-
-Este é um primeiro protótipo de um projeto coletivo, e em andamento, por ora dividido em 3 grandes áreas de pesquisa, nas abas de navegação: "Acervo", com as ferramentas mais completas de pesquisa; "Mapa", com as produções divididas por área; "Cronologia", com as produções divididas por ano; além da aba "Dados", onde o catálogo simplificado do acervo pode ser acessado para download. Cada item do acervo conta com um conjunto de informações, a depender do seu tipo (por ora, Livro, Dissertação ou Tese, e Artigo em Periódico), tais como resumo ou sinopse, universidade ou editora, autoria, ano de publicação, localização em bibliotecas (WorldCat), entre outros.
-
-Os itens no mapa são localizados a partir de seu tipo: "Teses e dissertações" são localizadas em suas universidades; "livros" a partir da localização de sua editora; e "Artigos em periódicos" a partir da localização da universidade do periódico. As localizações são aproximadas.
-
-DATA
-A BTTB é um acervo baseado em princípios de acesso-livre. Por isso, disponibilizamos uma versão simplificada de nosso catálogo para download, facilitando o trabalho de pesquisa.
-
-Utilize o campo de pesquisa a partir das identificações dos materiais (tais como título, autoria, universidade...), ou utiliza o campo de PESQUISA AVANÇADA, que possibilita a busca a partir de diferentes parâmetros, assim como diferentes termos
+<html>
+    <p>[PT] A <b>Biblioteca Trans-Travesti Brasileira</b> (BTTB) é um projeto de conservação e divulgação de produções bibliográficas realizadas por pessoas trans brasileiras. Tem como objetivos a conservação desses documentos através de um acervo digital interno com um <b>sistema de buscas</b> robusto, e a promoção da circulação desses materiais, caso eles sejam de <b>acesso livre e público</b> (open-acess). Este é um protótipo de um projeto coletivo, e em andamento. 
+      
+    <p>Por ora disponibilizamos três formatos: <b>Teses e dissertações</b>, <b>Artigos em periódicos</b>, e <b>Livros</b>. Cada item do acervo conta com um conjunto de informações com base nesse formato, incluindo Resumo (ou Sinopse), Universidade, Editora, Autoria, Ano de Publicação, etc.  <i>Para os LIVROS, disponibilizamos o link para acesso por bibliotecas via WorldCat, e o titulo da editora para referência de compra. Teses e dissertações, e artigos em periódicos, são disponibilizados integralmente.</i>
+      
+      <p>O sistema de buscas é disponibilizado na aba <b>Acervo</b>. Utilize o campo de pesquisa a partir da identificação dos materiais (título, autoria, palavras-chave...), ou utiliza o campo de <b>Pesquisa Avançada</b> para combinar esses parâmetros e termos.
+      
+    <p>Na aba <b>Dados</b>, com base em nossos princípios de acesso livre, disponibilizamos uma versão simplificada de nosso catálogo para download, facilitando o trabalho de pesquisa.
+  
+    <p>Na aba <b>Mapa</b>, o catálogo é dividido por área, com base no seu formato: "Teses e dissertação" são localizadas em sua universidade; "Artigos em periódicos" na universidade de publicação do periódico; e "Livros" com base na localização da editora. As localizações são aproximadas.
+      
+    <p>Na aba <b>Cronologia</b>, o catálogo é dividido por ano de publicação.
+   
+ <p><i>A BTTB é construída através do "CollectionBuilder", framework de acesso livre para criação de sites estáticos, criando uma plataforma sustentável e leve, facilitando o acesso de diferentes públicos. Prezamos pela acessibilidade e funcionalidade.</i>

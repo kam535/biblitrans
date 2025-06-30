@@ -1,8 +1,9 @@
 field,display_name,btn,hidden,sort_name,facet_name
-date,Ano,,,Ano, Ano de Publicação
-description,,,true,,,
+date,Ano,,,Ano de Publicação, Ano de Publicação
 creator,Autoria,,,Autoria,Autoria
-subject,,true,,,,
+subject,Palavra-chave,true,,Palavra-chave,Palavra-chave
+abstract,Resumo,,,Resumo,Resumo
+classification,,true,,Formato,Formato
+genre,,true,Gênero literário,Gênero literário
 location,,,true,Universidade,Universidade
-identifier,,,true,,,
-classification,,true,,Tipo,Tipo
+publisher,,,true,Editora,Editora

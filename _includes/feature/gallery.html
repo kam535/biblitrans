@@ -48,7 +48,6 @@
 {% assign gallery-limit = include.limit | default: 50 %}
 {% capture captions %}{{ include.captions | default: "true" }}{% endcapture %}
 
-
 {% if include.image-heading and include.heading%}
 {% include feature/jumbotron.html objectid=include.image-heading heading=include.heading text=false padding="5rem" %}
 {% elsif include.image-heading %}

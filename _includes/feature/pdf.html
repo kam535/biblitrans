@@ -19,18 +19,13 @@
     - "ratio" = use Bootstrap embed ratio options "21x9", "16x9", "4x3", or "1x1" to customize the responsive aspect ratio if not using height. 1x1 is default. (optional)
 
     Note: if you have issues make sure the item is a PDF file!
-
 {%- endcomment -%}
-{% if include.objectid contains "/" %}
-{%- capture src -%}{{ include.objectid | relative_url }}{%- endcapture -%}
-{%- capture pdf_link -%}{{ src }}{%- endcapture -%}
-{%- capture pdf_caption -%}{{ include.caption }}{%- endcapture -%}
-{% else %}
+
+{% if page.filename %}
 {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
-{%- capture src -%}{{ item.object_location | relative_url }}{% endcapture %}
+{%- capture src -%}{{ item.filename | prepend: "/objects/" | relative_url }}{% endcapture %}
 {%- capture pdf_link -%}{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
 {%- capture pdf_caption -%}{% if include.caption %}{{ include.caption }}{% else %}{{ item.title }}{% endif %}{%- endcapture -%}
-{% endif %}
 <div class="feature-include">
     <figure class="figure border rounded p-1 feature-w-{{ include.width | default: '100' }}">
         <div class="{% unless include.height %}ratio ratio-{{ include.ratio | default: '1x1' }}{% endunless %}">
@@ -41,3 +36,4 @@
         {% unless include.caption == false %}<figcaption class="figure-caption text-center"><a href="{{ pdf_link }}">{{ pdf_caption }}</a></figcaption>{% endunless %}
     </figure>
 </div>
+{% endif %}
